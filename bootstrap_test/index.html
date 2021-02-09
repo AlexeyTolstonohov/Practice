@@ -69,12 +69,36 @@
         <div class="col-md-4  " style="background:#CCCC00;">.col-md-4</div>
         <div class="col-md-4 " style="background:#00CC33;">.col-md-4</div>
         <div class="d-md-none d-lg-block" style="background:black; color: cornsilk;">
-        на разрешении middle (от 768px до 991px) элемент пропадает</div>
+            на разрешении middle (от 768px до 991px) элемент пропадает</div>
         <div class="visible-lg (only) = d-none d-lg-block d-xl-none" style="background:#e456d1;">
-            элемент видно только при разрешении large (от 992px до 1199px)</div>        
+            элемент видно только при разрешении large (от 992px до 1199px)</div>
     </div>
 
+    <div class="float-start">Float left on all viewport sizes</div><br>
+    <div class="float-end">Float right on all viewport sizes</div><br>
+    <div class="float-none">Don't float on all viewport sizes</div>
 
+    <div class="bg-info clearfix">
+        <button type="button" class="btn btn-secondary float-start">Example Button floated left</button>
+        <button type="button" class="btn btn-secondary float-end">Example Button floated right</button>
+    </div>
+
+    <div class="row">
+        <div class="col-xxl-2 offset-xxl-4 overflow-hidden" style="background:#CCCC00; height: 100px">
+            <p> <b>overflow-hidden</b> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                является
+                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+            </p>
+        </div>
+        <div class="col-xxl-2 overflow-auto" style="background:#e456d1; height: 100px">
+            <p> <b>overflow-auto </b>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                является
+                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+            </p>
+        </div>
+    </div>
 
     <!-- спросить у Кости спецификацию HTML5 или скачать на оф сайте-->
     <!--  атрибуты колонок (xs,small,medium, large, extra large,extra-extra large 
