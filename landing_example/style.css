@@ -1,0 +1,33 @@
+h1{
+    color: #1e2022;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    
+    line-height: 1.4;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-align: center!important;
+    font-family: "Open Sans",sans-serif; 
+    font-weight: 600;
+
+}
+
+footer{
+    background-color: #21325b!important;
+    color:white;
+}
+
+.FooterFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+}
+
+.FooterLink{
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+}
+.FooterLink:hover{
+    color:white;
+}
