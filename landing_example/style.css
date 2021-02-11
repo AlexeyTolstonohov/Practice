@@ -31,3 +31,15 @@ footer{
 .FooterLink:hover{
     color:white;
 }
+
+.brand {
+    width: 100%;
+    max-width: 7.5rem;
+}
+table{
+    margin: auto;
+}
+
+td{
+    width: 11em;
+}
