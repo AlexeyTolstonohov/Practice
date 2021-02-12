@@ -46,3 +46,17 @@ table{
 td{
     width: 11em;
 }
+
+.round{
+    border-radius: 10px;
+}
+
+#first-welcam-img {
+height: 445px;
+width:  445px;;
+}
+
+#second-welcam-img {
+    height: 610px;
+    width:  610px;;
+    }
