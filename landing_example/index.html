@@ -22,7 +22,46 @@
     <!--=====End Header=====-->
 
     <!--=====Nav=====-->
+    <div class="menu-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Free shipping over $50</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Articles</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <!--<span class="flag"><img src="img/flag.jpg"></span>-->
+                                English
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Russian</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Currency:USD</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav d-flex align-items-end " style='background-color: burlywood;'>
+                        <li class="nav-item " style="display:flex; flex-direction:row; justify-content:flex-end">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
     <!--=====End Nav=====-->
 
     <!--=====Start Main=====-->
@@ -53,8 +92,9 @@
             <h2>Since 2007, we have helped 25 companies launch over 1k incredible products</h2>
         </div>
 
-
-
+        <div class="container d-flex justify-content-center">
+            <span>As seen on...</span>
+        </div>
     </main>
     <!--=====End Main=====-->
 
@@ -101,5 +141,24 @@
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
 </body>
+
+<!-- 
+    Освоено:
+    fw-bold  -это font weight  в бутстрапе
+    mb-2 mt-5 - первая буква "m" это margin, буквы "tblr" означают top bottom left right,  дальше цифра от 1 до 5 
+    тоже самое с padding только буква "p"
+    gap-3  пропуск места 
+    mx-auto -горизонтальное центрирование внутри контейнера со свойством display:block
+    
+    Flex bootstrap:
+    класс d-flex - это свойство dispay:flex
+    классы бустрапа в общем отображают свойства флекс сss
+    justify-content выравнивает по основной оси
+    align-items выравнивает по вторичной оси
+    для работы флекса контейнер должен быть задан флекс, дочерний (выравниваемый) элемент может быть блочным,строчным, строчно-блочным
+
+-->
+
+
 
 </html>
