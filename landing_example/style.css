@@ -60,3 +60,9 @@ width:  445px;;
     height: 610px;
     width:  610px;;
     }
+
+    #Nav-Button:hover{
+    transition: 0.6s;
+    margin-bottom: 5px;
+    box-shadow: 0px 2px 10px rgb(153, 204, 245);      
+    }
