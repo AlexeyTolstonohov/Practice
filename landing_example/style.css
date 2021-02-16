@@ -25,6 +25,14 @@ cursor: pointer;
     transform: translateY(-3px);
     box-shadow: 0 4px 11px rgba(55,125,255,.35);    
     }
+    
+    .bg-nav {
+    background-color: #fff;
+}
+
+li{
+    padding: 0px 12px ;
+    }
 
 /* --===== Main =====-- */
 #first-welcam-img {
@@ -34,8 +42,8 @@ width:  445px;;
 }
 
 #second-welcam-img {
-    height: 610px;
-    width:  610px;
+    height: 610,987px;
+    width:  610,987px;
   
     }
     .col-md-5,.col-md-7{
