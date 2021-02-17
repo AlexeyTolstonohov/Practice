@@ -3,6 +3,7 @@
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 /* --===== Main =====-- */
@@ -13,4 +14,70 @@ line-height: 60px;
 .welcome-subtitle{
 font-size: 28px;
 line-height: 32px;
+}
+
+
+/* Welcome screen button */
+.welcame-container{
+    height: 92vh;
+    background-color: #ffd988;
+}
+.welcam-button{
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(45deg,#DAA520, #FF4500) ;
+    width: 684px;
+    height: 40px;
+    border-radius: 10px;
+    border:0px;
+    box-shadow: 2px;
+    user-select: none;
+    box-shadow: 5px 5px 15px grey;  
+    transition: 0.6s;
+}
+.welcam-button:focus {
+    outline: none;
+  }
+.welcam-button:hover{
+    width: 690px;
+    height: 42px;
+    box-shadow: 8px 8px 15px rgb(110, 110, 110);  
+    background: radial-gradient(#025202, #540ab4);
+    transition: 0.6s;
+    font-size: 22px;
+    color:#f3f3f3;    
+  }
+  /* End Welcome screen button */
+
+
+  /*Start Second screen*/
+  .second-screen{
+      height: 100vh;
+  }
+  /*End Second screen */
+
+
+/*End Main */
+  
+/*Start Footer */
+footer{
+    height: 35vh;
+    background-color:rgb(235, 235, 235);
+}
+
+.FooterFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+}
+
+.FooterLink{
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgba(36, 36, 36, 0.7);
+}
+.FooterLink:hover{
+    color:white;
 }
