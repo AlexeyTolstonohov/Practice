@@ -1,0 +1,16 @@
+/* --===== Nav =====-- */
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* --===== Main =====-- */
+.welcome-title{
+font-size: 56px;
+line-height: 60px;
+}
+.welcome-subtitle{
+font-size: 28px;
+line-height: 32px;
+}
