@@ -26,6 +26,8 @@ li{
 }
 
 /* --===== Main =====-- */
+
+
 .welcome-title{
     font-size: 56px;
     line-height: 60px;
@@ -46,7 +48,8 @@ select{
     height: 40px;
     border-radius: 0px 10px 10px 0px;
     border: 1px solid rgb(58, 58, 58);
-    margin-top: 1rem;
+    margin-top: 16px;
+    user-select: none;
     
 }
 
@@ -54,8 +57,8 @@ select{
     height: 40px;
     border-radius: 10px 0px 0px 10px;
     border: 1px solid  rgb(58, 58, 58);
-    margin-top: 1rem;
-   
+    margin-top: 16px;
+    user-select: none;
 }
 
 .input-geo{
@@ -63,7 +66,8 @@ select{
     height: 40px;
     border: 1px solid  rgb(58, 58, 58); 
     width: 630px;
-    
+    margin-top: 20px;
+    user-select: none;    
 }
 
 /* Welcome screen button */
@@ -71,15 +75,21 @@ select{
 
 .welcome-wrapper{
     background-color: #ffd988;
-    height: 92vh;
+   
     width: 100vw;
+    height: 650px;
 }
 .welcome-container{
-    height: 92vh;   
+  
+    height: 650px;
+}
+.col-md-5{
+    max-height: 650px;
 }
 
 
-.welcom-button{
+
+.welcome-button{
     display: block;
     margin: 0 auto;
     font-size: 18px;
@@ -93,17 +103,23 @@ select{
     user-select: none;
     box-shadow: 5px 5px 15px grey;  
     transition: 0.6s;
-    margin-top: 1rem;
+    margin-top: 16px;
 }
-.welcom-button:focus {
+.welcome-button:focus {
     outline: none;
   }
-.welcom-button:hover{
+.welcome-button:hover{
     box-shadow: 8px 8px 15px rgb(110, 110, 110);  
     background: linear-gradient(45deg,#DAA520, #FF4500) ;
     transition: 0.6s;
     font-size: 20px;    
     cursor: pointer;
+    user-select: none;
+  }
+  .welcome-image{
+      display: block;
+      width: auto;
+      max-height: inherit;
   }
 
   /* End Welcome screen button */
