@@ -2,8 +2,7 @@
 .container-nav{
     width: 1170px;
     padding-left: 15px;
-    padding-right: 15px;
-    
+    padding-right: 15px;    
 }
 
 li{
@@ -128,9 +127,10 @@ li{
 
   /*Start Second screen*/
   .screen2{
-    height: 100vh;
+    height: 600px;
     width: 100vw;
     background-color: #fff;
+    margin-bottom: 10px;
   }
   /*End Second screen */
 
@@ -139,14 +139,9 @@ li{
   
 /*Start Footer */
 footer{
-    height: 35vh;
+    margin-top: 200px;
+    height: 200px;    
     background-color:rgb(235, 235, 235);
-}
-
-.FooterFlex{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;   
 }
 
 .FooterLink{
