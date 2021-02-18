@@ -145,9 +145,10 @@ footer{
 }
 
 .FooterLink{
-    margin-top: 15px;
+    margin-top: 5px;
     text-decoration: none;
     color: rgba(36, 36, 36, 0.7);
+    width: 100%;
 }
 .FooterLink:hover{
     color:white;
