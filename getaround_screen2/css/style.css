@@ -1,5 +1,5 @@
 .bg-color{ 
-    background-color: #f8f7f8;   /* chocolate; */
+    background-color: #f8f7f8;   /* chocolate */
 }
 .section-2{  
     height: 276px;
@@ -11,3 +11,19 @@
 h4{
     margin-bottom: 24px;
 }
+
+.link-section-2{
+    color: #2ea2ea;
+    text-decoration: none;
+}
+.link-section-2 :hover{
+    color: #2ea2ea;
+    text-decoration: none;
+   
+}
+/*
+.section-3{
+
+}
+
+*/
