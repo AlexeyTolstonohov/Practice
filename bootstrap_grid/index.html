@@ -74,6 +74,24 @@
             элемент видно только при разрешении large (от 992px до 1199px)</div>
     </div>
 
+    <section class="section-3" style="height: 300px; background-color: cornsilk;">
+        <div class="container">
+          <div class="row"  style="height: 300px;">
+            <div class="col align-self-start">
+               <button> One of three columns</button>
+            </div>
+            <div class="col align-self-center">
+              <button> One of three columns</button>
+            </div>
+            <div class="col align-self-end">
+              <button> One of three columns</button>
+            </div>
+          </div>
+        </div>
+      </section> <!-- Важно задать высоту тега row, иначе align-self-start|center|end не будут работать , так как роу примет высоту элементов
+        а своей высоте ты не подвинешься ни вверх ни вниз, ты её занимаешь на 100% -->
+
+
     <div class="float-start">Float left on all viewport sizes</div><br>
     <div class="float-end">Float right on all viewport sizes</div><br>
     <div class="float-none">Don't float on all viewport sizes</div>
