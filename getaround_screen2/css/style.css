@@ -10,8 +10,8 @@
 
 h4{
     margin-bottom: 24px;
+    color: #390446;
 }
-
 
 .btn-light{
     color: #2ea2ea;
@@ -28,7 +28,44 @@ h4{
 .btn:focus {
     outline: none;
   }
+
+.section-3-h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-top: 64px;
+    color: #390446;
+}
+
+.img-fluid{
+    border-radius: 25px;
+    
+}
+h6{
+    font-size: 18px;
+    color: #390446;        
+}
+p{
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+.btn2-screen2{
+    background-color: inherit;
+    border: 2px solid #e6e6e6;   
+    color: #61366b;  
+}
+.btn2-screen2:hover{
+   
+    background-color: inherit;
+    border: 2px solid #61366b;  
+    color: #61366b; 
+    margin-top: -1px;
+}
+
 /*
+img   max-height: 260px;
+
 .link-section-2{
     color: #2ea2ea;
     text-decoration: none;
@@ -37,9 +74,6 @@ h4{
     color: #2ea2ea;
     text-decoration: none;
    
-}
-.section-3{
-
 }
 
 */
