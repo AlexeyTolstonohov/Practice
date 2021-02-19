@@ -12,7 +12,7 @@ li{
 #Nav-Button{
     background-color: #fff;
     color: #000;
-    border: 1px solid #ececec;
+    border: 3px solid #ececec;
     border-radius: 10px;    
     margin-left: 15px;
     margin-right: 5px;
@@ -20,8 +20,9 @@ li{
 }
 #Nav-Button:hover{
     border: 3px solid #b01aa7;   
-    margin-left: 8px;
-    margin-right: 3px;
+    margin-left: 15px;
+    margin-right: 5px;
+    padding-left: 18px;
 }
 
 /* --===== Main =====-- */
