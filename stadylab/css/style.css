@@ -1,0 +1,34 @@
+/* --===== Nav =====-- */
+.nav-link{
+    color: #fff;
+}
+.active{
+    color: #4986fc;
+}
+
+
+/* --===== Main =====-- */
+.wrapper{
+      /*  url(img/bg_1.jpg);*/
+      width: 100%;
+      height: 100%;
+      position: inherit;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      display: block;
+    
+}
+
+
+/* Welcome screen */
+
+
+
+/*Start Second screen*/
+
+
+
+/*End Main */  
+/*Start Footer */
