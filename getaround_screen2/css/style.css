@@ -68,10 +68,13 @@ p{
 
 
 /*section 4 */
+
 .card-text{
     font-weight: bold;
 }
-
+.card-img{
+    border-radius: 3px;    
+}
 
 /*Start Footer */
 footer{
