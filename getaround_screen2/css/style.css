@@ -65,6 +65,14 @@ p{
     margin-top: -1px;
 }
 
+
+
+/*section 4 */
+.card-text{
+    font-weight: bold;
+}
+
+
 /*Start Footer */
 footer{
     margin-top: 200px;
