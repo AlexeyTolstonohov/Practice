@@ -73,7 +73,9 @@ p{
     font-weight: bold;
 }
 .card-img{
-    border-radius: 3px;    
+    border-radius: 3px;   
+    max-width: 100%;
+    height: auto; 
 }
 
 /*Start Footer */
