@@ -29,7 +29,9 @@ h4{
     outline: none;
   }
 
-.section-3-h2{
+
+
+.section-3-h2,.section-4-h2{
     width: 100%;
     text-align: center;
     margin-bottom: 32px;
@@ -61,6 +63,23 @@ p{
     border: 2px solid #61366b;  
     color: #61366b; 
     margin-top: -1px;
+}
+
+/*Start Footer */
+footer{
+    margin-top: 200px;
+    height: 200px;    
+    background-color:rgb(235, 235, 235);
+}
+
+.FooterLink{
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgba(36, 36, 36, 0.7);
+    width: 100%;
+}
+.FooterLink:hover{
+    color:white;
 }
 
 /*
