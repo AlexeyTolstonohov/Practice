@@ -27,6 +27,17 @@ body{
     opacity: 1 !important;
 }
 
+.nav-link:hover{
+    font-size: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;    
+    color: #fff;
+    font-weight: 500;
+    opacity: 1 !important;
+} 
+
 .active, .header-h5 {
     color: #4986fc;
 }
@@ -42,6 +53,10 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+}
+.overlay{
+   background: linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+   opacity: .5;
 }
 
 .header-h1, .header-h6, .header-p{
