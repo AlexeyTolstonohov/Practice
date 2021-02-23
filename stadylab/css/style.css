@@ -1,28 +1,42 @@
 /* --===== Nav =====-- */
 .nav-link{
+    
+    font-size: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;    
     color: #fff;
+    font-weight: 500;
+    opacity: 1 !important;
 }
+
 .active{
     color: #4986fc;
 }
 
 
-/* --===== Main =====-- */
+/* --=====header =====--*/
 .wrapper{
-      /*  url(img/bg_1.jpg);*/
-      width: 100%;
-      height: 100%;
-      position: inherit;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      
-    
+    /*  url(img/bg_1.jpg);*/
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.header-h1, .header-h6, .header-p{
+    color: #fff;
 }
 
 
-/* Welcome screen */
+
+
+/* --===== Main =====-- */
+
 
 
 
