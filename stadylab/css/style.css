@@ -55,7 +55,7 @@ body{
     background-attachment: fixed;
 }
 .overlay{
-   background: linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+   background: linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f891d7 100%);
 }
 
 .header-h1, .header-h6, .header-p{
@@ -74,8 +74,64 @@ body{
 
 
 /* --===== Main =====-- */
+.section2{
+    padding-top: 112px;
+    padding-bottom: 112px;
+
+}
+
+.subheading{
+    color: #4986fc;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.section1-h2{
+    color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    text-align: center;
+    
+}
+
+.course-category {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    position: relative; 
+    z-index: 0;
+    margin-bottom: 20px;    
+}
 
 
+.section2-btn{
+    background-color: #e449ad;
+    color:#fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.section2-btn:hover{
+    background-color: #e449ad;
+    color:#fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section3{   
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.card{
+    width: auto;
+    margin-bottom: 15px;
+}
+.card:last-child{
+    width: auto;
+    margin-bottom: 50px;
+}
 
 
 /*Start Second screen*/
