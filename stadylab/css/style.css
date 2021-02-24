@@ -203,6 +203,33 @@ ul {
     list-style-type: none; 
     font-weight: 600;
 }
+.section4-bg{
+    position: relative;
+    z-index: 0;
+    background-attachment: fixed;
+}
+.layout{
+    background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+    height: 300px;
+    opacity: 0.8;
+
+}
+
+
+.number{
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+}
+
+.subtext{
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 /*
 span{
     z-index: 1;    
