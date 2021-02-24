@@ -207,6 +207,8 @@ ul {
     position: relative;
     z-index: 0;
     background-attachment: fixed;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 .layout{
     background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
