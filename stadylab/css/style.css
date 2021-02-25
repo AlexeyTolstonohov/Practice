@@ -281,6 +281,15 @@ ul {
     position: absolute;
 }
 
+.container-6{
+    margin-bottom: 200px;
+}
+
+
+.carousel-control-prev,.carousel-control-next{
+    color: black;
+}
+
 /*
 span{
     z-index: 1;    
