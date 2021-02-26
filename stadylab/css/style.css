@@ -163,6 +163,7 @@ body{
 .card{
     width: auto;
     margin-bottom: 15px;  
+    min-width: 200px;
 }
 
 .card:last-child{
