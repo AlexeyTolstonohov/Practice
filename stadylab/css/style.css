@@ -290,6 +290,15 @@ ul {
     color: black;
 }
 
+
+@media (max-width: 1200px) and (min-width: 756px) { 
+    .col-md-2{
+        width: 30%;
+    }
+
+}
+
+
 /*
 span{
     z-index: 1;    
