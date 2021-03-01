@@ -9,21 +9,6 @@ li{
     padding: 0px 8px ;
     }
 
-#Nav-Button{
-    background-color: #fff;
-    color: #000;
-    border: 3px solid #ececec;
-    border-radius: 10px;    
-    margin-left: 15px;
-    margin-right: 5px;
-    padding-left: 18px;
-}
-#Nav-Button:hover{
-    border: 3px solid #b01aa7;   
-    margin-left: 15px;
-    margin-right: 5px;
-    padding-left: 18px;
-}
 
 /* --===== Main =====-- */
 
@@ -32,6 +17,7 @@ li{
     font-size: 56px;
     line-height: 60px;
     padding-top:92px;
+    margin: auto;
 }
 .welcome-subtitle{
     font-size: 28px;
@@ -75,9 +61,9 @@ li{
     outline:none;    
 }
 
-/* Welcome screen button */
+
 .welcome-wrapper{
-    background-color: #ffd988;
+    background-color: #f0f0f0;
    
     width: 100vw;
     height: 650px;
@@ -86,44 +72,16 @@ li{
   
     height: 650px;
 }
-.col-md-5{
-    max-height: 650px;
-}
 
-.welcome-button{
-    display: block;
-    margin: 0 auto;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(45deg,#DAA520, #FF4500) ;
-    width: 630px;
-    height: 40px;
-    border-radius: 10px;
-    border:0px;
-    box-shadow: 2px;
-    user-select: none;
-    box-shadow: 5px 5px 15px grey;  
-    transition: 0.6s;
-    margin-top: 16px;
+.h1-welcome{
+   text-align: center;
 }
-.welcome-button:focus {
-    outline: none;
-  }
-.welcome-button:hover{
-    box-shadow: 8px 8px 15px rgb(110, 110, 110);  
-    background: linear-gradient(45deg,#DAA520, #FF4500) ;
-    transition: 0.6s;
-    font-size: 20px;    
-    cursor: pointer;
-    user-select: none;
-  }
-  .welcome-image{
-      display: block;
-      width: auto;
-      max-height: inherit;
-  }
+.h4-welcome{
+    text-align: center;
+}
+/* Welcome screen button */
 
-  /* End Welcome screen button */
+/* End Welcome screen button */
 
 
   /*Start Second screen*/
@@ -139,9 +97,52 @@ li{
   }
   /*End Second screen */
 
+  .bg-color-dark{
+      background-color: gray;
+  }
+
+
+
+
+
+.section-2-h2,.section-3-h2{
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+/*section 3 */
+.ico{
+    width: 60px;
+    height: 60px;
+}
+
+/*section 4 */
+
+.card-text{
+    font-weight: bold;
+}
+.card-img{
+    border-radius: 3px;   
+    max-width: 100%;
+    height: auto; 
+}
+.section-4-h2{
+    text-align: center;    
+}
+
+
+/*section 5 */
+.card2-img{
+    border-radius: 3px;   
+    max-width: 70%;
+    height: auto;    
+
+}
 
 /*End Main */
-  
+
+
 /*Start Footer */
 footer{
     margin-top: 200px;
@@ -158,6 +159,8 @@ footer{
 .FooterLink:hover{
     color:white;
 }
+
+
 .bg-color{ 
     background-color: #f8f7f8;   /* chocolate */
 }
@@ -168,7 +171,7 @@ footer{
 
 h4{
     margin-bottom: 24px;
-    color: #390446;
+    
 }
 
 .btn-light{
@@ -187,83 +190,4 @@ h4{
     outline: none;
   }
 
-
-
-.section-3-h2,.section-4-h2{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 32px;
-    padding-top: 64px;
-    color: #390446;
-}
-
-.img-fluid{
-    border-radius: 25px;
-    
-}
-h6{
-    font-size: 18px;
-    color: #390446;        
-}
-p{
-    font-size: 15px;
-    margin-bottom: 24px;
-}
-
-.btn2-screen2{
-    background-color: inherit;
-    border: 2px solid #e6e6e6;   
-    color: #61366b;  
-}
-.btn2-screen2:hover{
-   
-    background-color: inherit;
-    border: 2px solid #61366b;  
-    color: #61366b; 
-    margin-top: -1px;
-}
-
-
-
-/*section 4 */
-
-.card-text{
-    font-weight: bold;
-}
-.card-img{
-    border-radius: 3px;   
-    max-width: 100%;
-    height: auto; 
-}
-
-/*Start Footer */
-footer{
-    margin-top: 200px;
-    height: 200px;    
-    background-color:rgb(235, 235, 235);
-}
-
-.FooterLink{
-    margin-top: 5px;
-    text-decoration: none;
-    color: rgba(36, 36, 36, 0.7);
-    width: 100%;
-}
-.FooterLink:hover{
-    color:white;
-}
-
-/*
-img   max-height: 260px;
-
-.link-section-2{
-    color: #2ea2ea;
-    text-decoration: none;
-}
-.link-section-2 :hover{
-    color: #2ea2ea;
-    text-decoration: none;
-   
-}
-
-*/
+/*End Footer */
