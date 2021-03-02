@@ -194,6 +194,9 @@ h4{
       width: 33%;      
   }
 
+  ul,li{
+    list-style-type: none;
+  }
 /*End Footer */
 @media (max-width:900px) { 
    .footer-container{
@@ -205,3 +208,33 @@ h4{
    }
    
 }
+
+@media (max-width:900px) { 
+    .footer-container{
+        background-color:rgb(235, 235, 235);
+        width: 100%;       
+    }
+    footer{
+        height: auto;
+    }
+    
+ }
+ 
+ @media (max-width:700px) { 
+    .footer-container{
+        background-color:rgb(235, 235, 235);
+        width: 100%;       
+    }
+    footer{
+        height: auto;
+    }
+
+    .row-scrn-xsm{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+ }
+ 
