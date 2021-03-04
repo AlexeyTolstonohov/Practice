@@ -36,6 +36,20 @@
     height: 600px;
 }
 
+.welcome-button-find{
+    border-radius: 40px;
+    background: linear-gradient(135deg,  #0098cf, #005a7a);    
+    color: #fff;
+    border: none;
+    height: 50px;
+    width: 130px;
+    font-weight: 500;
+
+}
+.welcome_screen-ico_find{
+    height: 30px;
+    width: 30px;
+}
 
 
 
