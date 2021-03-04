@@ -4,19 +4,23 @@
 .nav-item{
     margin-right: 25px;
 }
+
 .Nav-Button{
     color: cornflowerblue;
     border: 2px solid cornflowerblue;     
     margin-right: 25px;
 }
+
 .Nav-Button:hover{
     color: rgb(31, 108, 250); 
     border: 2px solid rgb(31, 108, 250); 
 }
+
 .nav-img-profile-dropdown{
     height: 28px;
     width: 28px;
 }
+
 .dropdown-toggle::after{
     display: none;   /* убираю стрелочку(треугольничек) вниз из  dropdown nav */
 }
@@ -44,8 +48,8 @@
     height: 50px;
     width: 130px;
     font-weight: 500;
-
 }
+
 .welcome_screen-ico_find{
     height: 30px;
     width: 30px;
@@ -57,6 +61,21 @@
 
 
 /*End Main in  Main page */  
-/*Start Footer */
 
-/* END Main page */
+/*Start Footer */
+footer{
+background-color: #f0f8ff; 
+}
+
+.footer-link{
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgba(36, 36, 36, 0.7);
+    width: 100%;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+/*End Footer */
