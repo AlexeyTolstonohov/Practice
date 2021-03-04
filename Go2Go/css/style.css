@@ -1,0 +1,30 @@
+/* Main page */
+
+/* --===== Nav =====-- */
+#Nav-Button{
+    color: cornflowerblue;
+    border: 1.5px solid cornflowerblue; 
+}
+.nav-img-profile-dropdown{
+    height: 28px;
+    width: 28px;
+}
+.dropdown-toggle::after{
+    display: none;   /* убираю стрелочку(треугольничек) вниз из  dropdown nav */
+}
+
+
+/* --===== Main in Main page =====-- */
+
+/* Welcome screen */
+
+
+
+/*Start Second screen*/
+
+
+
+/*End Main in  Main page */  
+/*Start Footer */
+
+/* END Main page */
