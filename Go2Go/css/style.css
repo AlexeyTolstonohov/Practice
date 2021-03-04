@@ -1,9 +1,17 @@
 /* Main page */
 
 /* --===== Nav =====-- */
-#Nav-Button{
+.nav-item{
+    margin-right: 25px;
+}
+.Nav-Button{
     color: cornflowerblue;
-    border: 1.5px solid cornflowerblue; 
+    border: 2px solid cornflowerblue;     
+    margin-right: 25px;
+}
+.Nav-Button:hover{
+    color: rgb(31, 108, 250); 
+    border: 2px solid rgb(31, 108, 250); 
 }
 .nav-img-profile-dropdown{
     height: 28px;
