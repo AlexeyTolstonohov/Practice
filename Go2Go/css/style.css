@@ -22,13 +22,23 @@
 }
 
 
+
+
+
+
 /* --===== Main in Main page =====-- */
 
 /* Welcome screen */
+.Welcome-screen-container{
+    background-image: url(../img/welcome_screen-background_img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
 
 
 
-/*Start Second screen*/
+
 
 
 
