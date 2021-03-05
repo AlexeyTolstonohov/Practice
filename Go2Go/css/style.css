@@ -42,11 +42,10 @@
     background-size: cover;
 }
 .h1-welcome{
-
-font-size: 70px;
+font-size: 70px;       /*  56px;   */
 }
 .h2-welcome{
-    font-size: 34px;
+    font-size: 42px;   /*  32px;   */ 
     color: black;
 }
 
@@ -77,7 +76,40 @@ font-size: 70px;
     margin-bottom: 100px;
 }
 
+.content-benefits{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
+.button-benefit{
+    width: 340px;
+    height: 84px;
+    background-color: #018ABC;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../img/prev.png);
+    background-repeat: no-repeat;    
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.carousel-control-next-icon{
+    background-image: url(../img/next.png);
+    background-repeat: no-repeat;    
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.carousel-inner{
+    transform: translateX(33.33%);
+}
 /*End Main in  Main page */  
 
 /*Start Footer */
