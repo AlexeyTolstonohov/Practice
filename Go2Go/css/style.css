@@ -32,8 +32,6 @@
     text-decoration: none;
 }
 
-
-
 /* --===== Main in Main page =====-- */
 
 /* Welcome screen */
@@ -43,7 +41,14 @@
     height: 100vh;
     background-size: cover;
 }
+.h1-welcome{
 
+font-size: 70px;
+}
+.h2-welcome{
+    font-size: 34px;
+    color: black;
+}
 
 .input-date-rent-start , .input-date-rent-end{    
     height: 140px;
@@ -51,6 +56,7 @@
     border-radius: 30px;
     border: 1px solid  rgb(58, 58, 58);    
     outline:none;  
+    margin-top: 159px;
 }
 
 .welcome-input-find{
@@ -58,20 +64,18 @@
     background: linear-gradient(135deg,  #0098cf, #005a7a);    
     color: #fff;
     border: none;
-    height: 50px;
-    width: 130px;
+    height: 113px;
+    width: 263px;
     font-weight: 500;
+    margin-top: 159px;
 }
+
 
 .welcome_screen-ico_find{
     height: 30px;
     width: 30px;
+    margin-bottom: 100px;
 }
-
-
-
-
-
 
 
 /*End Main in  Main page */  
