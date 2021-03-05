@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <title></title>
+  <title>go2go</title>
 </head>
 
 <body>
@@ -16,8 +18,8 @@
     <!--=====Nav=====-->
     <nav class="navbar navbar-expand-lg navbar-light d-flex">
       <div class="container container-nav">
-        <a class="navbar-brand" href="https://www.go2go.com.ua/">
-          <b>Go2Go</b>
+        <a class="nav-logo" href="https://www.go2go.com.ua/">
+          <span class="">Go2Go</span>
         </a>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav">
@@ -57,54 +59,68 @@
     <!-- Welcome screen-->
     <section>
       <div class="container Welcome-screen-container">
-
         <h1 class="h1-welcome text-center pt-5">Арендуйте автомобиль у местных жителей</h1>
         <h4 class="h4-welcome text-center">Найдите идеальную машину от проверенного владельца Go2Go </h4>
 
+
         <div class="row">
-          <div class="col-1 offset-4">
-            <button class="button"> Местоположение
-              Где арендуем машину?
-            </button>
+
+          <div class="col-md-2 offset-2">
+            <input class="" type=""> Местоположение
+            Где арендуем машину?
+            </input>
           </div>
-          <div class="col-1">
-            <button class="button"> Дата аренды
-              с 15 апреля 2021</button>
+
+
+
+          <div class="col-md-2">
+            <form>
+              <input  class="input-date-rent-start" type="date" name="calendar" value=" Дата аренды
+                с 15 апреля 2021">
+            </form>
+            <!--start-rent-date -->
           </div>
-          <div class="col-1">
-            <button class="button">Дата возврата
-              по 21 апреля 2021</button>
+
+          <div class="col-md-2">           
+              <form>
+                <input  class="input-date-rent-end" type="date" name="calendar" value=" Дата возврата
+                по 21 апреля 2021">
+              </form>              
           </div>
-          <div class="col-1">
-            <button class="button welcome-button-find"><img class="welcome_screen-ico_find"
-                src="img/welcome_screen-button_find.png" alt=""> Поиск</button>
+
+          <div class="col-md-2">
+            <form>
+              <p> <input class="welcome-input-find" type="submit"><img class="welcome_screen-ico_find"
+                  src="img/welcome_screen-button_find.png" alt=""> Поиск</input>
+
+              </p>
+            </form>
+
+
+
+
           </div>
+
         </div>
-
-
-
-
-
-
 
       </div>
     </section>
     <!-- End Welcome screen-->
   </main>
   <!--=====End Main=====-->
-
   <!--=====Start Footer=====-->
   <footer>
     <div class="container footer-container">
       <div class="row pt-5">
-        <div class="col-1">
+        <div class="col-md-1">
           <b>Go2Go</b>
         </div>
-        <div class="col-3">
+        <div class="col-md-3">
           <b>О нас</b>
-          <p>Компания Go2Go предоставляет всем желающим арендовать машину у местных жителей или зарабатывать, если вы владелец автомобиля.</p>
+          <p>Компания Go2Go предоставляет всем желающим арендовать машину у местных жителей или зарабатывать, если вы
+            владелец автомобиля.</p>
         </div>
-        <div class="col-2">
+        <div class="col-md-2">
           <ul>
             <li><b class="mt-2"> Владельцам машин</b> </li>
             <li><a class="footer-link" href="#">Владельцам машин</a></li>
@@ -112,7 +128,7 @@
             <li><a class="footer-link" href="#">Владельцам машин</a></li>
           </ul>
         </div>
-        <div class="col-2">
+        <div class="col-md-2">
           <ul>
             <li><b class="mt-2"> Информация</b> </li>
             <li><a class="footer-link" href="#">Информация</a></li>
@@ -120,7 +136,7 @@
             <li><a class="footer-link" href="#">Информация</a></li>
           </ul>
         </div>
-        <div class="col-2">
+        <div class="col-md-2">
           <ul>
             <li><b class="mt-2"> Контакты</b> </li>
             <li><a class="footer-link" href="#">Контакты</a></li>
@@ -138,3 +154,13 @@
 </body>
 
 </html>
+
+<!--  collapse  в тексте На  факью
+
+шрифт-лого
+форм, дивы роу,   инпут календарь, сабмит
+время добавить
+
+
+адаптивность минус
+-->

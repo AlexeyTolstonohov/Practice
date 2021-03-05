@@ -25,8 +25,12 @@
     display: none;   /* убираю стрелочку(треугольничек) вниз из  dropdown nav */
 }
 
-
-
+.nav-logo{
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
 
 
 
@@ -34,13 +38,22 @@
 
 /* Welcome screen */
 .Welcome-screen-container{
-    background-image: url(../img/welcome_screen-background_img.jpg);
-    background-position: center center;
+    background-image: url(../img/welcome_screen-background_img.png);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 100vh;
+    background-size: cover;
 }
 
-.welcome-button-find{
+
+.input-date-rent-start , .input-date-rent-end{    
+    height: 140px;
+    width: 156px;
+    border-radius: 30px;
+    border: 1px solid  rgb(58, 58, 58);    
+    outline:none;  
+}
+
+.welcome-input-find{
     border-radius: 40px;
     background: linear-gradient(135deg,  #0098cf, #005a7a);    
     color: #fff;
@@ -54,6 +67,7 @@
     height: 30px;
     width: 30px;
 }
+
 
 
 
