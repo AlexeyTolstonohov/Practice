@@ -229,7 +229,7 @@ h4{
         height: auto;
     }
 
-    .row-scrn-xsm{
+    .row-screen-xsm{
         display: flex;
         flex-direction: column;
     }
