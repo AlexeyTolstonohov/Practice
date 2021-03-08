@@ -86,6 +86,7 @@ font-size: 70px;       /*  56px;   */
     width: 340px;
     height: 84px;
     background-color: #018ABC; 
+    border: none;
     color: white;
     font-size: 27px;
     font-weight: 600;
@@ -94,9 +95,11 @@ font-size: 70px;       /*  56px;   */
     width: 340px;
     height: 84px;
     background-color: #006184; 
+    border: none;
     color: white;
     font-size: 27px;
     font-weight: 600;
+
 }
 
 
