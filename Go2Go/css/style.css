@@ -110,6 +110,26 @@ font-size: 70px;       /*  56px;   */
 .carousel-inner{
     transform: translateX(33.33%);
 }
+
+.main-button-collapse{
+    background-color: #fff;
+    border: none;
+    user-select: none;
+    box-shadow: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+.main-button-collapse:focus{
+    box-shadow: none;
+} 
+
+.card-body{
+    border: none;
+}
+
+.help-center-mb{
+    margin-bottom: 130px;
+}
 /*End Main in  Main page */  
 
 /*Start Footer */
