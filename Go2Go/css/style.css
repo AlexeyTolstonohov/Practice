@@ -149,4 +149,14 @@ ul,li{
     width: 50px;
 }
 
+.footer-link-social{
+    text-decoration: none;
+}    
+
+.footer-img-social{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
 /*End Footer */
