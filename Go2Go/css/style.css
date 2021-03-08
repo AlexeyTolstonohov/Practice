@@ -6,14 +6,15 @@
 }
 
 .Nav-Button{
-    color: cornflowerblue;
-    border: 2px solid cornflowerblue;     
+    color: #018bbc;
+    border: 2px solid #018bbc;
     margin-right: 25px;
 }
 
 .Nav-Button:hover{
-    color: rgb(31, 108, 250); 
-    border: 2px solid rgb(31, 108, 250); 
+    color: #fff;
+    border: 2px solid #018bbc;
+    background: #018bbc;  
 }
 
 .nav-img-profile-dropdown{
@@ -84,11 +85,20 @@ font-size: 70px;       /*  56px;   */
 .button-benefit{
     width: 340px;
     height: 84px;
-    background-color: #018ABC;
+    background-color: #018ABC; 
     color: white;
     font-size: 27px;
     font-weight: 600;
 }
+.button-benefit:hover{
+    width: 340px;
+    height: 84px;
+    background-color: #006184; 
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+}
+
 
 .carousel-control-prev-icon{
     background-image: url(../img/prev.png);
@@ -145,23 +155,24 @@ ul,li{
     list-style-type: none;
 }
 
-.footer-select-lang, .currency{
+.footer-dropdown-lang, .footer-dropdown-currency{
     background-color: #f0f8ff; 
     border: none;
     box-shadow: none;
     color: black;
 }
-.footer-select-lang:hover ,.currency:hover{
+.footer-dropdown-lang:hover ,.footer-dropdown-currency:hover{
     background-color: #f0f8ff; 
     border: none;
     box-shadow: none;
     color: black;
 }
-.footer-select-lang:active , .currency:active {
+.footer-dropdown-lang:active , .footer-dropdown-currency:active {
     background-color: #f0f8ff; 
     border: none;
     box-shadow: none;
     color: black;
+    font-weight: 700;
 }
 
 
