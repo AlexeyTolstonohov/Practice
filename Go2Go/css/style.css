@@ -158,6 +158,13 @@ ul,li{
     list-style-type: none;
 }
 
+.footer-lang-planet-img{
+    height: 21px;
+    width: 21px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
 .footer-dropdown-lang, .footer-dropdown-currency{
     background-color: #f0f8ff; 
     border: none;
