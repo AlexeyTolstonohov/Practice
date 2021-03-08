@@ -107,9 +107,6 @@ font-size: 70px;       /*  56px;   */
 }
 
 
-.carousel-inner{
-    transform: translateX(33.33%);
-}
 
 .main-button-collapse{
     background-color: #fff;
