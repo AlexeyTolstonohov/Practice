@@ -145,18 +145,35 @@ ul,li{
     list-style-type: none;
 }
 
-.select-lang{
-    width: 50px;
+.footer-select-lang, .currency{
+    background-color: #f0f8ff; 
+    border: none;
+    box-shadow: none;
+    color: black;
 }
+.footer-select-lang:hover ,.currency:hover{
+    background-color: #f0f8ff; 
+    border: none;
+    box-shadow: none;
+    color: black;
+}
+.footer-select-lang:active , .currency:active {
+    background-color: #f0f8ff; 
+    border: none;
+    box-shadow: none;
+    color: black;
+}
+
 
 .footer-link-social{
     text-decoration: none;
 }    
 
 .footer-img-social{
-    width: 25px;
+    width: 37,5px;
     height: 25px;
     margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 /*End Footer */
