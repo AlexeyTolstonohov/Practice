@@ -177,6 +177,12 @@ ul,li{
     color: black;
     font-weight: 700;
 }
+.footer-dropdown-lang:focus , .footer-dropdown-currency:focus{
+    background-color: #f0f8ff; 
+    border: none;
+    box-shadow: none;
+    color: black;
+}
 
 
 .footer-link-social{
