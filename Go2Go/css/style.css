@@ -91,21 +91,21 @@ font-size: 70px;       /*  56px;   */
 }
 
 .button-benefit{
-    width: 340px;
-    height: 84px;
+    width: 200px;
+    height: 50px;
     background-color: #018ABC; 
     border: none;
     color: white;
-    font-size: 27px;
+    font-size: 18px;
     font-weight: 600;
 }
 .button-benefit:hover{
-    width: 340px;
-    height: 84px;
+    width: 200px;
+    height: 50px;
     background-color: #006184; 
     border: none;
     color: white;
-    font-size: 27px;
+    font-size: 18px;
     font-weight: 600;
 
 }
