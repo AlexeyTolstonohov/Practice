@@ -1,0 +1,40 @@
+/* --===== Nav =====-- */
+
+/* --===== Main =====-- */
+
+/* Welcome screen */
+.container{
+    background-color: #eee017 ;
+}
+.container-sm{
+    background-color: #8ffff9 ;
+}
+.container-md{
+    background-color: #8fc3ff ;
+}
+.container-lg{
+    background-color: #60aaff ;
+}
+.container-xl{
+    background-color: rgb(83, 101, 255);
+    color: rgb(255, 255, 255);
+}
+.container-xxl{
+    background-color: rgb(17, 41, 255);
+    color: rgb(255, 255, 255);
+}
+
+.container1720{
+    background-color: rgb(207, 17, 255);
+    color: rgb(255, 255, 255);
+    max-width: 1720px;
+}
+/*Start Second screen*/
+
+
+
+/*End Main */  
+/*Start Footer */
+.container-fluid{
+    background-color: #cacaca ;
+}
