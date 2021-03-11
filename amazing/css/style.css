@@ -9,6 +9,7 @@ body{
 .container_mw1600{
     max-width: 1600px;
 }
+
 .logo{
     font-family: 'Fira Sans', sans-serif;
     font-size: 60px;
@@ -17,7 +18,7 @@ body{
     width: 80px;
     height: 80px;
     background-color: black;
-    line-height: 1.37;    
+    line-height: 1.37;       
 }
 
 .navbar-dark .navbar-toggler-icon {
