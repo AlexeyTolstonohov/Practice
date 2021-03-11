@@ -8,6 +8,8 @@ body{
 
 .container_mw1600{
     max-width: 1600px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .logo{
