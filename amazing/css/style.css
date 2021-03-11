@@ -13,7 +13,9 @@ body{
 .main__nav_margin{
     margin-left: 210px;
     margin-right: 210px;
+    padding-top: 88px;
 }
+
 
 .logo{
     font-family: 'Fira Sans', sans-serif;
@@ -31,6 +33,9 @@ body{
 }
 .navbar-toggler:focus {
     box-shadow: none;
+}
+.main__nav_hamburger_sub_text{
+margin-left: 7px;
 }
     /* ширина контента 1600 пкс*/
 
