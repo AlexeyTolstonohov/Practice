@@ -1,0 +1,50 @@
+body{
+    background-color: #fff;/*#282828; */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* --===== Nav =====-- */
+
+.container_mw1600{
+    max-width: 1600px;
+}
+.logo{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color:#fff;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    line-height: 1.37;    
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../img/hamburger-button-menu.png)
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+    /* ширина контента 1600 пкс*/
+
+
+/* --===== Main =====-- */
+
+/* Welcome screen */
+.main__welcome_bg{
+    background-image: url(../img/main__welcome_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    min-width: 1600px;
+}
+
+
+/*Start Second screen*/
+
+
+
+/*End Main */  
+/*Start Footer */
