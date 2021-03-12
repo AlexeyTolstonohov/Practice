@@ -67,7 +67,7 @@ padding-top: 195px;
     /* font-family: ; FontAmazing -платный шрифт*/
 }
 
-/*Start Second screen*/
+/*Start seсtion About*/
 .main__about{
 height: 900px;
 }
@@ -90,6 +90,8 @@ height: 900px;
     font-size: 36px;    
     font-family: 'Times' , serif;
 }
+
+/*End seсtion About*/
 
 /*End Main */  
 /*Start Footer */
