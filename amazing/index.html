@@ -18,49 +18,45 @@
 <body>
   <!--=====Start Header=====-->
   <header>
-    <!--=====Nav=====-->
-
-    <div class="container container_mw1600 main__welcome_bg">
-      <nav>
-        <div class="row main__nav_margin">
-          <div class="col-xxl-1">
-            <div class="logo text-center">/.</div>
+    <!--=====Nav=====-->    
+    <div class="container container_mw1600 main__welcome_bg">      
+        <nav>
+          <div class="row main__nav_margin">
+            <div class="col-xxl-1">
+              <div class="logo text-center">/.</div>
+            </div>
+            <div class="col-xxl-1 offset-xxl-10">
+              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar_hamburger_Content" aria-controls=" " aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <span class="main__nav_hamburger_sub_text " data-bs-toggle="collapse"
+                data-bs-target="#navbar_hamburger_Content">menu</span>
+            </div>
           </div>
-          <div class="col-xxl-1 offset-xxl-10">
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbar_hamburger_Content" aria-controls=" " aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <span class="main__nav_hamburger_sub_text " data-bs-toggle="collapse"
-              data-bs-target="#navbar_hamburger_Content">menu</span>
+        </nav>
+        <div class="collapse" id="navbar_hamburger_Content">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
           </div>
         </div>
-      </nav>
-      <div class="collapse" id="navbar_hamburger_Content">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h1 class="main__welcome_h1">Amazing Dude.
+              Amazing Life.
+            </h1>
+          </div>
         </div>
-      </div>
-
-
-
-      <div class="row">
-        <div class="col-md-6">
-          <h1 class="main__welcome_h1">Amazing Dude.
-            Amazing Life.
-          </h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h4 class="main__welcome_h4">
-            Welcome to the personal site of <b>John Doe.</b>
-            A professional skier and a musician.
-          </h4>
-        </div>
-      </div>
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h4 class="main__welcome_h4">
+              Welcome to the personal site of <b>John Doe.</b>
+              A professional skier and a musician.
+            </h4>
+          </div>
+        </div>  
     </div>
     <!--=====End Nav=====-->
   </header>
@@ -69,9 +65,22 @@
   <!--=====Start Main=====-->
   <main>
     <!-- Welcome screen-->
-    <section class="main__welcome ">
-      <div class="container ">
-
+    <section class="main__about ">
+      <div class="container main__container_about">
+        <div class="row">
+          <div class="col-md-6 main__about_bg_img">
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h6 class="main__about_h6">Sed faucibus quis</h6>
+            <p class="main__about_text">
+              Fusce bibendum luctus massa, 
+              ut tincidunt lectus tincidunt in. 
+              Nulla tristique ipsum vitae lacus 
+              ullamcorper, at dictum nunc 
+              scelerisque.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <!-- End Welcome screen-->

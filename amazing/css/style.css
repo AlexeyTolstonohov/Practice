@@ -15,6 +15,20 @@ body{
     padding-top: 88px;
 }
 
+.main__welcome_bg{
+    background-image: url(../img/main__welcome_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    min-width: 1600px;    
+    /*  цвет наложения*/
+}
+/*.overlay{
+    background: linear-gradient(135deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #c6e9ee 100%);
+    position: absolute;
+    z-index: 1;
+ }*/
 
 .logo{
     font-family: 'Fira Sans', sans-serif;
@@ -44,34 +58,38 @@ text-transform: uppercase;
 
 .main__welcome_h1{
 font-size: 72px;
-margin-top: 195px;
+padding-top: 195px;
 /* font-family: ; FontAmazing -платный шрифт*/
 }
 
 .main__welcome_h4{
     font-size: 30px;
     /* font-family: ; FontAmazing -платный шрифт*/
-
 }
-    
-
-
-/* --===== Main =====-- */
-
-/* Welcome screen */
-.main__welcome_bg{
-    background-image: url(../img/main__welcome_bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 1000px;
-    min-width: 1600px;
-}
-
 
 /*Start Second screen*/
+.main__about{
+height: 900px;
+}
+
+.main__container_about{
+    max-width: 1600px;   
+    background-color: #f3f1ef;
+}
+.main__about_bg_img{
+    background-image: url(../img/main__about_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;    
+    height: 500px;
+}
 
 
+.main__about_h6, .main__about_text{
+    margin-left: 57px;
+    color: #666666;
+    font-size: 36px;    
+    font-family: 'Times' , serif;
+}
 
 /*End Main */  
 /*Start Footer */
