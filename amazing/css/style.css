@@ -216,5 +216,19 @@ background-color: #f3f1ef;
     color: #2ebd59;
 }
 
+
+/* Start section Music_2 */
+.main__music_bg_green{
+    background: linear-gradient(0.25turn,  #2ebd59 50%, #212227 50%);
+    background-position: 0 0;    
+    height: 500px;
+}
+.main__music_h6{
+    color: #fff;
+}
+
+.main__music_text{
+    color: #fff;
+}
 /*End Main */  
 /*Start Footer */
