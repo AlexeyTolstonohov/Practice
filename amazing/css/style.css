@@ -230,5 +230,34 @@ background-color: #f3f1ef;
 .main__music_text{
     color: #fff;
 }
+
+    
+.main_music2_btn_left{
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    background-color:#2ebd59;
+    border: solid 2px #ffffff;
+    border-radius: 15px;
+    box-shadow: none;   
+    text-transform: uppercase;
+    outline: none;
+}
+
+.main_music2_btn_right{
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    background-color:#212227;
+    border: solid 2px #ffffff;
+    border-radius: 15px;
+    box-shadow: none;   
+    text-transform: uppercase;
+    outline: none;
+}
+
+
+
+
 /*End Main */  
 /*Start Footer */
