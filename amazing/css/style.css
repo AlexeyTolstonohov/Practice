@@ -77,17 +77,18 @@ padding-top: 195px;
 /*Start seсtion About*/
 .main__about{
 height: 500px;
+background-color: #f3f1ef;
 }
 
 .main__container_about{
-    max-width: 1600px;   
-    background-color: #f3f1ef;
+    width: 100vw; 
+   
 }
 .main__about_bg_img{
     background-image: url(../img/main__about_bg.png);
     background-repeat: no-repeat;
-    background-size: cover;   
-    background-position: 100%;   
+    background-size: 50vw 100%;  
+    background-position: 0 0;    
     height: 500px;
 }
 
