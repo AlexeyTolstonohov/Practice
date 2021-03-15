@@ -103,7 +103,7 @@ background-color: #f3f1ef;
 
 /* Start section Gallery */
 .main__container_gallary{
-    max-width: 1600px;
+   
     background-color:#3f729b;
     height: 1030px;
     padding: 0px;
@@ -113,13 +113,38 @@ background-color: #f3f1ef;
     margin: 0px;
 }
 .main__gallery_width{
-    width: 400px;        
+    width: 25%;        
 }
+.main__gallary_bg{
+    background-position:center center;
+    height: 515px;
+    width: 25%;
+    overflow: hidden;
+    
+    background-repeat: no-repeat;
+}
+.main__gallary_bg_img1{
+    background-image: url(../img/main__gallery_img1.png);
+}
+.main__gallary_bg_img2{
+    background-image: url(../img/main__gallery_img2.png);
+}
+.main__gallary_bg_img3{
+    background-image: url(../img/main__gallery_img3.png);
+}
+.main__gallary_bg_img4{
+    background-image: url(../img/main__gallery_img4.png);
+}
+
+.main__gallary_bg_img5{
+    background-image: url(../img/main__gallery_img5.png);
+}
+
 
 .main__gallary_img-size{
    background-position:center center;
    height: 515px;
-   width: 400px; 
+   width: 100%;
    overflow: hidden;
 }
 
