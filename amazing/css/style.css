@@ -180,10 +180,41 @@ background-color: #f3f1ef;
 }
 /* End section Gallery */
 
+/* Start section Music */
+.main__music_bg{
+    background-image: url(../img/main__music_bg.png);
+    height: 900px;
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main__music_bg_col{
+    background-color: #212227;
+}
+.main__music_h4{
+    font-size: 24px;
+    color: #2ebd59;
+}
+.main__music_text{
+    font-size: 14px;
+    color: #fff;
+}
 
+.main_music_btn{
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #2ebd59;
+    background-color:#212227;
+    border: solid 2px #2ebd59;
+    border-radius: 15px;
+    box-shadow: none;   
+    text-transform: uppercase;
+    outline: none;
+}
 
-
-
+.main_music_btn:hover{
+    color: #2ebd59;
+}
 
 /*End Main */  
 /*Start Footer */
