@@ -38,14 +38,14 @@
 .main__welcome_h1{
     font-size: 60px;
     color: #000;
-    font-family: 'Times New Roman',serif;
+    font-family: 'Open sans',serif;
     text-transform: uppercase;
     padding-top: 111px;
 }
 .main__welcome_sub_text{
     font-size: 16px;
     color: #6f6d6d;
-    font-family: 'Times New Roman',serif;
+    font-family:'Open sans',serif;
     padding-top: 39px;
     padding-bottom: 63px;
 }
@@ -53,7 +53,7 @@
     background-color: #ff3f40;  
     color: #fff;
     font-size: 18.14px; 
-    font-family: 'Times New Roman', sans-serif;  
+    font-family: 'Open sans', sans-serif;  
     height: 55px;
     width: 225px;
 }
