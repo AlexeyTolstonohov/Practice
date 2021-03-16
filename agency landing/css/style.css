@@ -1,0 +1,58 @@
+/* --===== Nav =====-- */
+.container-nav{
+    background-color:#313030;
+    width: 1250px;
+    padding: 0;    
+}
+.nav-item{
+    height: 90px;
+    
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    padding: 0 15px;
+}
+.nav-link{
+    color: #fff;
+    margin-top: 25.5px;    
+}
+.nav-link:hover{
+    color: #fff;
+    
+}
+.nav-item:hover{
+    background-color: #ff3f40;   
+}
+/* --===== Main =====-- */
+
+/* Welcome screen */
+
+
+
+/*Start Second screen*/
+
+
+
+/*End Main */  
+/*Start Footer */
+
+
+/*
+nav width 1250px
+nav h 90px
+open sans bold
+font size 14px
+
+
+colors:
+красный нав ff3f40
+nav_bg  313030
+welcome_bg f6f2f2
+бежевый плитка  f5f0dd
+серый текст 585858
+серый подсвет плитка 7a786e
+цвет формы e5e5e5
+фон футера 313030
+*/
