@@ -56,3 +56,20 @@ welcome_bg f6f2f2
 цвет формы e5e5e5
 фон футера 313030
 */
+
+@media (max-width: 1000px) and (min-width: 700px) { 
+    .container, .container-md, .container-sm {
+        max-width: 1000px;
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+}
+@media (max-width: 700px) and (min-width: 300px) { 
+    .nav-link{
+        margin-top: 11px;
+    }
+    .nav-item {
+        height: 60px;
+    }
+}
