@@ -22,28 +22,30 @@
     margin-top: 25.5px;    
 }
 .nav-link:hover{
-    color: #fff;
-    
+    color: #fff;    
 }
 .nav-item:hover{
     background-color: #ff3f40;   
 }
 /* --===== Main =====-- */
 /* Welcome screen */
-.padding_lr_35px{
-    padding: 0px 35px;
-    
+.main__container_welcome{
+    padding: 0px 35px;  
+    height: 569px;  
 }
 .main__welcome_h1{
     font-size: 60px;
     color: #000;
     font-family: 'Times New Roman',serif;
     text-transform: uppercase;
+    padding-top: 111px;
 }
 .main__welcome_sub_text{
     font-size: 16px;
     color: #6f6d6d;
     font-family: 'Times New Roman',serif;
+    padding-top: 39px;
+    padding-bottom: 63px;
 }
 .main__welcome_btn{
     background-color: #ff3f40;  
@@ -65,8 +67,15 @@
     color: #fff;
     box-shadow: none;
 }
+.main__video{
+    height: 356px;
+    width: 548px;
+    background-color: #c4c0b1;
+    margin-top: 104px;
+    float: right;  
+    box-shadow:  0px -8px 50px 12px #bdbdbd;
+}
 /*Start Second screen*/
-
 
 
 /*End Main */  
