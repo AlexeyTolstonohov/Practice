@@ -114,8 +114,10 @@
     width: 225px;  
 }
 .main__benefits_btn:hover{
-    color: #ff3f40; 
+    color: #fff; 
     box-shadow: none;
+    background-color: #ff3f40; 
+    transition: 0.4s;
 }
 .main__benefits_btn:focus{
     color: #ff3f40; 
