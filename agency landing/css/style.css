@@ -57,7 +57,7 @@ welcome_bg f6f2f2
 фон футера 313030
 */
 
-@media (max-width: 1000px) and (min-width: 700px) { 
+@media (max-width: 1000px) and (min-width: 600px) { 
     .container, .container-md, .container-sm {
         max-width: 1000px;
     }
@@ -65,11 +65,14 @@ welcome_bg f6f2f2
         flex-direction: row;
     }
 }
-@media (max-width: 700px) and (min-width: 300px) { 
+@media (max-width: 600px) and (min-width: 300px) { 
     .nav-link{
         margin-top: 11px;
     }
     .nav-item {
         height: 60px;
+    }
+    .container{
+        max-width: 600px;
     }
 }
