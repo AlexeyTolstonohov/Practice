@@ -217,10 +217,12 @@ background-color: #f3f1ef;
 
 
 /* Start section Music_2 */
+.main__music2_row{
+    height: 500px;
+}
 .main__music_bg_green{
     background-color:  #2ebd59;
-    background-position: 0 0;    
-    height: 500px;
+
 }
 .main__music_bg_dark{
     background-color:  #212227;
