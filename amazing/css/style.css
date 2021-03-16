@@ -120,7 +120,7 @@ background-color: #f3f1ef;
     height: 515px;
     width: 25%;
     overflow: hidden;
-    
+   
     background-repeat: no-repeat;
 }
 .main__gallary_bg_img1{
@@ -131,6 +131,7 @@ background-color: #f3f1ef;
 }
 .main__gallary_bg_img3{
     background-image: url(../img/main__gallery_img3.png);
+    background-size: 100%;
 }
 .main__gallary_bg_img4{
     background-image: url(../img/main__gallery_img4.png);
@@ -199,7 +200,6 @@ background-color: #f3f1ef;
     font-size: 14px;
     color: #fff;
 }
-
 .main_music_btn{
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
@@ -211,7 +211,6 @@ background-color: #f3f1ef;
     text-transform: uppercase;
     outline: none;
 }
-
 .main_music_btn:hover{
     color: #2ebd59;
 }
@@ -219,21 +218,21 @@ background-color: #f3f1ef;
 
 /* Start section Music_2 */
 .main__music_bg_green{
-    background: linear-gradient(0.25turn,  #2ebd59 50%, #212227 50%);
+    background-color:  #2ebd59;
     background-position: 0 0;    
     height: 500px;
+}
+.main__music_bg_dark{
+    background-color:  #212227;
 }
 .main__music_h6{
     color: #fff;
     font-size: 24px;
 }
-
 .main__music_text{
     color: #fff;
     font-size: 18px;
-}
-
-    
+}    
 .main_music2_btn_left{
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
@@ -245,7 +244,6 @@ background-color: #f3f1ef;
     text-transform: uppercase;
     outline: none;
 }
-
 .main_music2_btn_right{
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
