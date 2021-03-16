@@ -98,11 +98,13 @@
     font-weight: bold;
     text-transform: uppercase;
     color: #585858;
+    padding-top: 117px;
 }
 .main__benefits_text{
     font-size: 16px;
     font-family: 'Open sans', sans-serif;  
     font-weight: 500;
+    padding-top: 54px;
 }
 .main__benefits_btn{
     background-color: #fff;
