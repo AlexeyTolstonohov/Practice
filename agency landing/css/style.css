@@ -7,9 +7,11 @@
     width: 1250px;
     padding: 0;    
 }
+.navbar{
+    padding: 0px;
+}
 .nav-item{
-    height: 90px;
-    
+    height: 90px;    
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -87,17 +89,14 @@
 }
 /*Start Second screen*/
 
-
 /*End Main */  
 /*Start Footer */
-
 
 /*
 nav width 1250px
 nav h 90px
 open sans bold
 font size 14px
-
 
 colors:
 красный нав ff3f40
@@ -109,7 +108,6 @@ welcome_bg f6f2f2
 цвет формы e5e5e5
 фон футера 313030
 */
-
 @media (max-width: 1000px) and (min-width: 600px) { 
     .container, .container-md, .container-sm {
         max-width: 1000px;
