@@ -1,4 +1,7 @@
 /* --===== Nav =====-- */
+.main__welcome_bg-color{
+    background-color: #f6f2f2;
+}
 .container-nav{
     background-color:#313030;
     width: 1250px;
@@ -27,20 +30,40 @@
 }
 /* --===== Main =====-- */
 /* Welcome screen */
-
+.padding_lr_35px{
+    padding: 0px 35px;
+    
+}
 .main__welcome_h1{
     font-size: 60px;
     color: #000;
-    font-family: 'Times New Roman',regular;
+    font-family: 'Times New Roman',serif;
     text-transform: uppercase;
 }
 .main__welcome_sub_text{
     font-size: 16px;
     color: #6f6d6d;
-    font-family: 'Times New Roman',regular;
+    font-family: 'Times New Roman',serif;
 }
 .main__welcome_btn{
-    
+    background-color: #ff3f40;  
+    color: #fff;
+    font-size: 18.14px; 
+    font-family: 'Times New Roman', sans-serif;  
+    height: 55px;
+    width: 225px;
+}
+.main__welcome_btn:hover{
+    color: #fff;
+    box-shadow: none;    
+}
+.main__welcome_btn:focus{
+    color: #fff;
+    box-shadow: none;
+}
+.main__welcome_btn:active{
+    color: #fff;
+    box-shadow: none;
 }
 /*Start Second screen*/
 
