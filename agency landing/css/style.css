@@ -247,13 +247,65 @@ welcome_bg f6f2f2
     }
 }
 @media (max-width: 600px) and (min-width: 300px) { 
+    .container{
+        max-width: 600px;
+    }
     .nav-link{
         margin-top: 12.5px;
     }
     .nav-item {
         height: 60px;
+    }    
+    
+    .main__container_welcome{
+        height: 785px;
     }
-    .container{
-        max-width: 600px;
+    .row__welcome{
+        display: flex;
+        flex-direction: column;
     }
+    .main__welcome_h1{
+        padding-top: 40px;     
+       
+    }
+    .main__welcome_sub_text{
+        padding-bottom: 20px;
+    }
+    .main__welcome_btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .main__video{
+        height: calc(356px*0.8);
+        width: calc(548px*0.8);
+        margin-top: 50px; 
+        margin-left: auto;
+        margin-right: auto; 
+        float: none; 
+        padding: 0px 100px;     
+    }
+    .main__benefits_row_padding-top{
+        padding: 0px;
+    }
+    .main__benefits_h2{
+        padding-top: 40px
+    }
+    .main__benefits_btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .main__benefits_ico_margin{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .main__benefits_text2 {
+        padding-bottom: 20px;
+    }
+    
+    
 }
