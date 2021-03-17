@@ -177,12 +177,59 @@ welcome_bg f6f2f2
 цвет формы e5e5e5
 фон футера 313030
 */
+@media (min-width: 1400px) { 
+    
+}
+@media (max-width: 1400px) and (min-width: 1200px) { 
+    .container{
+        padding: 0px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 900px) { 
+    .main__video{
+        height: calc(356px*0.8);
+        width: calc(548px*0.8);
+    }
+    .container, .container-md, .container-sm {
+        max-width: 960px;
+        padding: 0px;
+    }
+}    
+
+@media (max-width: 1400px) and(min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1053.6px;
+    }
+}
 @media (max-width: 1000px) and (min-width: 600px) { 
     .container, .container-md, .container-sm {
         max-width: 1000px;
     }
     .navbar-nav{
         flex-direction: row;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 700px) { 
+    .main__container_welcome{
+        height: 870px;
+    }
+   
+    .main__welcome_sub_text{
+        padding-bottom: 20px;
+    }
+    .main__welcome_btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .main__video{
+        height: calc(356px*0.8);
+        width: calc(548px*0.8);
+        margin-top: 50px; 
+        margin-left: auto;
+        margin-right: auto; 
+        float: none;      
     }
 }
 @media (max-width: 600px) and (min-width: 300px) { 
