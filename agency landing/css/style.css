@@ -30,7 +30,8 @@
     color: #fff;    
 }
 .nav-item:hover,.active{
-    background-color: #ff3f40;   
+    background-color: #ff3f40; 
+    color: #fff;     
 }
 
 /* --===== Main =====-- */
@@ -129,11 +130,11 @@
     transition: 0.4s;
 }
 .main__benefits_btn:focus{
-    color: #ff3f40; 
+    color: #fff;
     box-shadow: none;
 }
 .main__benefits_btn:active{
-    color: #ff3f40; 
+    color: #fff;
     box-shadow: none;
 }
 /*right part of benefits */
