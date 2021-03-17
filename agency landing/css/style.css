@@ -203,9 +203,9 @@ welcome_bg f6f2f2
     }
 }
 @media (max-width: 1000px) and (min-width: 600px) { 
-    .container, .container-md, .container-sm {
+    /*.container, .container-md, .container-sm {
         max-width: 1000px;
-    }
+    }*/
     .navbar-nav{
         flex-direction: row;
     }
@@ -247,9 +247,9 @@ welcome_bg f6f2f2
         padding: 0px 100px;     
     }
 }
-@media (max-width: 600px) and (min-width: 300px) { 
+@media (max-width: 699px) and (min-width: 300px) { 
     .container{
-        max-width: 600px;
+        max-width: 699px;
     }
     .nav-link{
         margin-top: 12.5px;
