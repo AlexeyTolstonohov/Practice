@@ -61,6 +61,7 @@
     font-family: 'Open sans', sans-serif;  
     height: 55px;
     width: 225px;
+    margin-bottom: 15%;
 }
 .main__welcome_btn:hover{
     color: #fff;
@@ -188,7 +189,22 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
+.main__feature_nav{
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    color: #737373;
+}
 
+.main__feature_card{  
+    background-color: #f5f0dd; 
+    width: 290px;
+    height: 290px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
 
 /*End Main */  
 /*Start Footer */
@@ -267,6 +283,7 @@ welcome_bg f6f2f2
         display: block;
         margin-left: auto;
         margin-right: auto; 
+        margin-bottom: 0;
     }
     .main__video{
         height: calc(356px*0.8);
@@ -308,6 +325,7 @@ welcome_bg f6f2f2
         display: block;
         margin-left: auto;
         margin-right: auto; 
+        margin-bottom: 0;
     }
     .main__video{
         height: calc(356px*0.8);
