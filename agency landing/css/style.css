@@ -248,6 +248,9 @@ welcome_bg f6f2f2
     }
 }
 @media (max-width: 699px) and (min-width: 300px) { 
+    .body{
+        position: absolute;
+    }
     .container{
         max-width: 699px;
     }
