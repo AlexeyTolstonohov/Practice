@@ -200,10 +200,27 @@ hr{
 
 .main__feature_card{  
     background-color: #f5f0dd; 
-    width: 290px;
-    height: 290px;
+   
+    height: 70%;
+    min-height: 300px;
+     
     margin-left: 20px;
     margin-bottom: 20px;  
+}
+
+.main__team_h2{
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #585858;
+    margin-bottom: 0px;
+}
+.main__team_text{
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;  
+    font-weight: 500;
+    padding-top: 56px;
+    color: #585858;
 }
 
 /*End Main */  
