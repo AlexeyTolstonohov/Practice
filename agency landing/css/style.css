@@ -238,11 +238,15 @@ hr{
 .main__team_card{
     width: 100px;
     height: 100px;
+    margin-left: 20px;
 }
 
 /*--=====Email=====--*/
 .main__email_bg{
     background: #f5f0dd;
+}
+main__email_h2{
+    color: #fff;
 }
 
 /*End Main */  
