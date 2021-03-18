@@ -259,7 +259,7 @@ welcome_bg f6f2f2
     }    
     
     .main__container_welcome{
-        height: 785px;
+        height: 730px;
     }
     .row__welcome{
         display: flex;
@@ -267,7 +267,7 @@ welcome_bg f6f2f2
     }
     .main__welcome_h1{
         padding-top: 40px;     
-       
+        font-size: 32px;
     }
     .main__welcome_sub_text{
         padding-bottom: 20px;
@@ -290,13 +290,17 @@ welcome_bg f6f2f2
         padding: 0px;
     }
     .main__benefits_h2{
-        padding-top: 40px
+        padding-top: 40px;
+        font-size: 32px;
+    }
+    .main__benefits_text{
+        padding-top: 22px;
     }
     .main__benefits_btn{
         display: block;
         margin-left: auto;
         margin-right: auto; 
-        margin-top: 30px;
+        margin-top: 32px;
         margin-bottom: 30px;
     }
     .main__benefits_ico_margin{
