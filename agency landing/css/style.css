@@ -38,7 +38,7 @@
 /* Welcome screen */
 .main__container{
     padding: 0px 35px;  
-    height: 569px;  
+    /*height: 569px;   */
 }
 .main__welcome_h1{
     font-size: 60px;
@@ -94,7 +94,7 @@
 }
 /*Start Second screen*/
 .main__benefits{
-    height: 690px;
+  /*  height: 690px; */
     background-color: #fff;
 }
 .main__benefits_row_padding-top{
@@ -159,6 +159,37 @@ hr{
     width: 100%;
     size: 2px;
 }
+/*----------section Feature---------- */ 
+.main__section_feature{
+  /*  height: 1020px; */
+}
+.main__feature_h2{
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #585858;
+    margin-bottom: 0px;
+}
+.main__feature_text_width{
+    width: 505px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main__feature_text{
+    color: #585858;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.main__feature_red_line{
+    height: 2px;
+    width: 130px;
+    background-color: #ff3f40;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /*End Main */  
 /*Start Footer */
 
@@ -248,9 +279,7 @@ welcome_bg f6f2f2
     }
 }
 @media (max-width: 699px) and (min-width: 300px) { 
-    .body{
-        position: absolute;
-    }
+   
     .container{
         max-width: 699px;
     }
@@ -262,7 +291,7 @@ welcome_bg f6f2f2
     }    
     
     .main__container_welcome{
-        height: 730px;
+        /*height: 730px; */
     }
     .row__welcome{
         display: flex;
@@ -288,6 +317,9 @@ welcome_bg f6f2f2
         margin-right: auto; 
         float: none; 
         padding: 0px 100px;     
+    }
+    .main__benefits{
+        /*height: 1350px;*/
     }
     .main__benefits_row_padding-top{
         padding: 0px;
