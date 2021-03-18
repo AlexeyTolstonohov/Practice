@@ -228,11 +228,23 @@ hr{
     text-transform: uppercase;
     color: #585858;
 }
-
+.bg-dark{
+    color: #1a1919;
+}
 .row_dir{
     display: flex;
     flex-direction: row;
 }
+.main__team_card{
+    width: 100px;
+    height: 100px;
+}
+
+/*--=====Email=====--*/
+.main__email_bg{
+    background: #f5f0dd;
+}
+
 /*End Main */  
 /*Start Footer */
 
