@@ -303,6 +303,19 @@ box-shadow: none;
 .row_mb{
     margin-bottom: 110px;
 }
+.main__touch_h6{
+    color: #e0e0e0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main__touch_text{
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;  
+    font-weight: 500;
+    color:  #e0e0e0;
+    margin-top: 20px;
+}
+
 /*End Main */  
 /*Start Footer */
 .footer_bg{
