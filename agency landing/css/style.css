@@ -231,7 +231,12 @@ hr{
 .bg-dark{
     color: #f5f0dd;
 }
-
+.main__team_big_card{
+    background-color: #f5f0dd;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
 .main__team_card{
     width: 100%;
     height: 100px;
