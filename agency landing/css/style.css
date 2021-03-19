@@ -229,16 +229,15 @@ hr{
     color: #585858;
 }
 .bg-dark{
-    color: #1a1919;
+    color: #f5f0dd;
 }
-.row_dir{
-    display: flex;
-    flex-direction: row;
-}
+
 .main__team_card{
-    width: 100px;
+    width: 100%;
     height: 100px;
     margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f0dd;
 }
 
 /*--=====Email=====--*/
@@ -258,6 +257,7 @@ hr{
 .form-control{
     height: 55px;
 }
+
 /*End Main */  
 /*Start Footer */
 
