@@ -267,7 +267,27 @@ hr{
 .form-control{
     height: 55px;
 }
-
+.main__get_in_touch_bg{
+    background-color: #2d2d2d;
+}
+.main__form2,.main__form3{
+    background-color: #e5e5e5;
+    margin-bottom: 20px;
+}
+.main__form4{
+    background-color: #e5e5e5;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.main__get_in_touch_btn{
+background-color: #ff3f40;  
+color: #fff;
+font-size: 18.14px; 
+font-family: 'Open sans', sans-serif;  
+height: 55px;
+width: 100%;
+margin-bottom: 20px;
+}
 /*End Main */  
 /*Start Footer */
 
