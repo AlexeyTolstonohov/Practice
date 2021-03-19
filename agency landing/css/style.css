@@ -161,9 +161,7 @@ hr{
     size: 2px;
 }
 /*----------section Feature---------- */ 
-.main__section_feature{
-  /*  height: 1020px; */
-}
+
 .main__feature_h2{
     font-weight: bold;
     font-size: 42px;
@@ -363,10 +361,7 @@ welcome_bg f6f2f2
     .nav-item {
         height: 60px;
     }    
-    
-    .main__container_welcome{
-        /*height: 730px; */
-    }
+ 
     .row__welcome{
         display: flex;
         flex-direction: column;
@@ -393,9 +388,7 @@ welcome_bg f6f2f2
         float: none; 
         padding: 0px 100px;     
     }
-    .main__benefits{
-        /*height: 1350px;*/
-    }
+ 
     .main__benefits_row_padding-top{
         padding: 0px;
     }
