@@ -220,8 +220,9 @@ hr{
     font-size: 16px;
     font-family: 'Open sans', sans-serif;  
     font-weight: 500;
-    padding-top: 56px;
     color: #585858;
+
+    padding-top: 56px;
     padding-bottom: 50px;
 }
 .main__team_h4{
@@ -264,6 +265,13 @@ hr{
     padding-top: 56px;
     color: #fff;
 }
+
+.main__touch_red_line{
+    height: 2px;
+    width: 130px;
+    background-color: #ff3f40;
+    margin-bottom: 60px;
+}
 .form-control{
     height: 55px;
 }
@@ -273,11 +281,14 @@ hr{
 .main__form2,.main__form3{
     background-color: #e5e5e5;
     margin-bottom: 20px;
+    box-shadow: none;
 }
 .main__form4{
     background-color: #e5e5e5;
     height: 250px;
     margin-bottom: 20px;
+    box-shadow: none;
+    
 }
 .main__get_in_touch_btn{
 background-color: #ff3f40;  
@@ -286,10 +297,27 @@ font-size: 18.14px;
 font-family: 'Open sans', sans-serif;  
 height: 55px;
 width: 100%;
-margin-bottom: 20px;
+box-shadow: none;
+
+}
+.row_mb{
+    margin-bottom: 110px;
 }
 /*End Main */  
 /*Start Footer */
+.footer_bg{
+    background-color: #2d2d2d;
+}
+.footer_text{
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;  
+    font-weight: 500;
+    color: #585858;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
 
 /*
 nav width 1250px
