@@ -245,10 +245,19 @@ hr{
 .main__email_bg{
     background: #f5f0dd;
 }
-main__email_h2{
+.main__email_h2{
     color: #fff;
 }
-
+.main__email_text{
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;  
+    font-weight: 500;
+    padding-top: 56px;
+    color: #fff;
+}
+.form-control{
+    height: 55px;
+}
 /*End Main */  
 /*Start Footer */
 
