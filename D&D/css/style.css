@@ -4,7 +4,15 @@
 
 /* Welcome screen */
 
-
+.visually-hidden{
+    visibility: hidden;
+}
+.carousel-control-prev-icon{
+    visibility: hidden;
+}
+.carousel-control-next-icon{
+    visibility: hidden;
+}
 
 /*Start Second screen*/
 
